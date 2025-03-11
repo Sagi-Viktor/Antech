@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: antech_grpc_server_v1
+Version: 0.1
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: chirpstack-api
+Requires-Dist: grpcio
+Dynamic: requires-dist

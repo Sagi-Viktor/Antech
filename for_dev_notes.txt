@@ -1,0 +1,14 @@
+
+1. -------------------------------------------------------------------------------------------------------------------
+Due to "pip install -e ." is depreciated use "pip install --use-pep517 -e ." which collect data from
+setup.py and pyproject.toml file to ensure modern package management.
+
+Installation:
+1. create pyproject.toml as it is in the app folder
+2. pip install build setuptools wheel
+3. python -m build --wheel
+4. pip install -e .
+
+
+---------------------------------------------------------------------------------------------------------------------
+

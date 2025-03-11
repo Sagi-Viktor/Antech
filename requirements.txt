@@ -1,0 +1,5 @@
+fastapi==0.100.0
+uvicorn==0.23.2
+chirpstack-api==3.12.4  # Official Python library for ChirpStack gRPC API communication
+grpcio==1.58.0         # Required for gRPC communication in Python
+pydantic~=2.3.0

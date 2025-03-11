@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+chirpstack-api
+grpcio
